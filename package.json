@@ -1,0 +1,17 @@
+{
+  "name": "qsa",
+  "version": "0.1.0",
+  "description": "querySelectorAll that returns an array",
+  "repository": "jeromedecoster/qsa",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "watchify src/index.js -v -o example/bundle.js"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
+  },
+  "license": "MIT"
+}
